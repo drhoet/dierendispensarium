@@ -7,7 +7,15 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+$site-green-highlight: #4a9b10;
+$site-green: #28520a;
+
 img.orbit-image {
 	/*border: 2px green solid;*/
 	padding: 2px;
+}
+
+h1 {
+	color: $site-green-highlight;
+	background-color: $site-green;
 }

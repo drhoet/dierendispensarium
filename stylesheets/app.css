@@ -6661,8 +6661,14 @@ a.th {
   max-width: 800px;
 }
 
-/* line 10, ../sass/app.scss */
+/* line 13, ../sass/app.scss */
 img.orbit-image {
   /*border: 2px green solid;*/
   padding: 2px;
+}
+
+/* line 18, ../sass/app.scss */
+h1 {
+  color: #4a9b10;
+  background-color: #28520a;
 }

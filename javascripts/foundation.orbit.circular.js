@@ -16,7 +16,6 @@
 
     version: '4.2.0',
 
-/* TODO: retain active slide */
     settings: {
       timer_speed: 10000,
       pause_on_hover: true,
@@ -156,16 +155,28 @@
           $slides = $slides_container.children();
 
       self._buffer_size = Math.ceil(($slides_container.width() - self.settings.slide_width) / (2 * self.settings.slide_width)) + 1;
-      self._slide_offset = - (((2*self._buffer_size - 1) * self.settings.slide_width) - $slides_container.width()) / 2;
-      // To better support the "sliding" effect we need to clone slides from
+      // To support the "sliding" effect we need to clone slides from
       // begin and end with the size of the buffer
-      $slides_container.prepend($slides.slice($slides.length - self._buffer_size).clone().attr('data-orbit-slide', ''));
-      $slides_container.append($slides.slice(0, self._buffer_size).clone().attr('data-orbit-slide', ''));
+      if($slides.length < self._buffer_size) {
+        self._buffer_size = Math.ceil(self._buffer_size / $slides.length) * $slides.length;
+        for(var i = 0; i < self._buffer_size / $slides.length; ++i) {
+          $slides_container.prepend($slides.clone().attr('data-orbit-slide', '').removeClass(self.settings.active_slide_class));
+          $slides_container.append($slides.clone().attr('data-orbit-slide', '').removeClass(self.settings.active_slide_class));
+        }
+      } else {
+        $slides_container.prepend($slides.slice($slides.length - self._buffer_size).clone().attr('data-orbit-slide', '').removeClass(self.settings.active_slide_class));
+        $slides_container.append($slides.slice(0, self._buffer_size).clone().attr('data-orbit-slide', '').removeClass(self.settings.active_slide_class));
+      }
+      self._slide_offset = - (((2*self._buffer_size - 1) * self.settings.slide_width) - $slides_container.width()) / 2;
       self._init_dimensions($slides_container);
-      // Make the first "real" slide active
-      $slides_container.css(self._margin_position_property, self._get_offset(self._buffer_size));
-      $active_slide.removeClass(self.settings.active_slide_class);
-      $slides.first().addClass(self.settings.active_slide_class);
+      
+      if(active_index < 0) {
+        // Make the first "real" slide active
+        active_index = self._buffer_size;
+        $slides.first().addClass(self.settings.active_slide_class);
+      }
+
+      $slides_container.css(self._margin_position_property, self._get_offset(active_index + self._buffer_size)); //this index is without the buffer!!
     },
 
     _init_events: function ($slides_container) {
@@ -181,10 +192,9 @@
         .on('resize.fndtn.orbit', function() {
           $slides_container.height('');
           $slides_container.height(self.settings.slide_height);
-          $slides_container.children().slice(0, self._buffer_size).remove();
-          $slides_container.children().slice($slides_container.length - self._buffer_size - 1).remove();
+          $slides_container.children('[data-orbit-slide]').remove();
           $slides_container.width('');
-	  $slides_container.css(self._margin_position_property, '');
+          $slides_container.css(self._margin_position_property, '');
           self._init_dimensions_and_buffer($slides_container);
         });
 
