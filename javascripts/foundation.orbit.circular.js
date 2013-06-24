@@ -1,3 +1,11 @@
+/*
+ * Foundation Orbit Circular
+ * Circular version of the Foundation Orbit. For the original version, see: http://foundation.zurb.com
+ * Copyright 2013, Dries Hoet
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+*/
+
 ;(function ($, window, document, undefined) {
   'use strict';
 
