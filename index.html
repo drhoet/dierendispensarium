@@ -11,20 +11,20 @@
 		<script src="javascripts/vendor/custom.modernizr.js"></script>
 	</head>
 	<body>
-		<div class="row">
-			<div class="large-3 columns">
-				<h1><img src="images/logo_dispensarium.gif" /></h1>
+		<div id="header" class="row">
+			<div id="logo" class="large-3 columns">
+				<img src="images/logo_dispensarium.gif" />
 			</div>
 			<div class="large-9 columns">
 				<div class="row">
-					<p class="right">
+					<p id="infobox">
 						<strong>09/233.03.13</strong>
 						<br/>
 						Dampoortstraat 39, 9000 Gent<br/>
 						Ma-Vrij 10u tot 12u
 					</p>
 				</div>
-				<div class="row">
+				<div id="menu" class="row">
 					<div class="section-container horizontal-nav" data-section="horizontal-nav" data-options="one_up: false;">
 						<section>
 							<p class="title" data-section-title><a href="#part1">HOME</a></p>
@@ -57,20 +57,18 @@
 
 		<!-- First Band (Slider) -->
 
-		<div class="row">
+		<div id="banner" class="row">
 			<div class="large-12 columns">
-				<ul data-orbit data-options="captions: false;">
+				<div class="preloader"></div>
+				<ul data-orbit data-options="bullets:false;">
 					<li>
 						<img class="orbit-image" src="images/pic1.jpg" width="400px"/>
-						<div class="orbit-caption">Some stupid caption</div>
 					</li>
 					<li>
 						<img class="orbit-image" src="images/pic3.jpg" width="400px"/>
-						<div class="orbit-caption">Some stupid caption</div>
 					</li>
 					<li>
 						<img class="orbit-image" src="images/pic2.jpg" width="400px"/>
-						<div class="orbit-caption">Some stupid caption</div>
 					</li>
 				</ul>
 				<hr />

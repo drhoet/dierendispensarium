@@ -15,7 +15,28 @@ img.orbit-image {
 	padding: 2px;
 }
 
-h1 {
-	color: $site-green-highlight;
-	background-color: $site-green;
+[data-orbit] {
+	white-space: nowrap;
+	overflow: hidden;
+	li {
+		display: inline;
+		list-style: none;
+	}
+}
+
+body {
+	margin: emCalc(10px);
+}
+div#banner {
+	max-width: $row-width * (7/6);
+}
+
+div#logo {
+	margin-bottom: -61px;
+}
+
+#infobox {
+	margin-bottom: emCalc(10px);
+	text-align: right;
+	width: 100%;
 }

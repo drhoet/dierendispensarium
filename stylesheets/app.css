@@ -6668,7 +6668,34 @@ img.orbit-image {
 }
 
 /* line 18, ../sass/app.scss */
-h1 {
-  color: #4a9b10;
-  background-color: #28520a;
+[data-orbit] {
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 21, ../sass/app.scss */
+[data-orbit] li {
+  display: inline;
+  list-style: none;
+}
+
+/* line 27, ../sass/app.scss */
+body {
+  margin: 0.625em;
+}
+
+/* line 30, ../sass/app.scss */
+div#banner {
+  max-width: 72.91667em;
+}
+
+/* line 34, ../sass/app.scss */
+div#logo {
+  margin-bottom: -61px;
+}
+
+/* line 38, ../sass/app.scss */
+#infobox {
+  margin-bottom: 0.625em;
+  text-align: right;
+  width: 100%;
 }
