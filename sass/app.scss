@@ -7,8 +7,14 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
-$site-green-highlight: #4a9b10;
-$site-green: #28520a;
+// compass mixins
+@import "compass/css3";
+
+$site-green-highlight: #b3c341;
+$site-green: #9faf30;
+//$site-green-selected: #97ab61;
+$site-green-selected: #7b8725;
+$divider: emCalc(10px);
 
 img.orbit-image {
 	/*border: 2px green solid;*/
@@ -25,7 +31,7 @@ img.orbit-image {
 }
 
 body {
-	margin: emCalc(10px);
+	padding: $divider;
 }
 div#banner {
 	max-width: $row-width * (7/6);
@@ -36,7 +42,61 @@ div#logo {
 }
 
 #infobox {
-	margin-bottom: emCalc(10px);
+	margin-bottom: $divider;
 	text-align: right;
 	width: 100%;
 }
+
+div#menu {
+	background-color: #fff;
+	margin-bottom: $divider;
+	@include box-shadow(rgba(0, 0, 0, 0.1) 1px 1px 1px 0px);
+}
+
+@mixin main-menu-active() {
+	color: #fff;
+	background-color: $primary-color;
+	@include text-shadow(0 1px 0 rgba(0,0,0,0.4));
+}
+
+ul.main-menu {
+	li {
+		float: left;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: relavite;
+		a {
+			padding: 12px 15px;
+			line-height: 24px;
+			display: block;
+		}
+		ul {
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			width: 200px;
+			li {
+				width: 100%;
+			}
+		}
+	}
+	li.active {
+		a {
+			@include main-menu-active;
+		}
+	}
+	li:hover {
+		a {
+			@include main-menu-active;
+		}
+		ul {
+			visibility: visible;
+			opacity: 1;
+			z-index: 999;
+		}
+	}
+}
+
