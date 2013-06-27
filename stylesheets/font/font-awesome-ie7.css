@@ -1,0 +1,1831 @@
+/*
+ *  Based on the Font Awesome package:
+ *
+ *  Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - SASS Files are based on the Font Awesome SASS files, which are licensed under
+ *    MIT License - http://opensource.org/licenses/mit-license.html
+ *
+ */
+/* general icons for IE7 */
+/* line 4, ../../sass/font/font-awesome-ie7.scss */
+[class*="awesome-icon-"] {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* icons */
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-glass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-music {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-envelope-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-user {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-film {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th-large {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th-list {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-zoom-in {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-zoom-out {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signal {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cog {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-time {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-road {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-download-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-repeat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-headphones {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-qrcode {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-barcode {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tags {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bookmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-print {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02f;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf030;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-font {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf031;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bold {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf032;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-italic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf033;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-text-height {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf034;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-text-width {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf035;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf036;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-center {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf037;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf038;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-justify {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf039;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf03a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-indent-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf03b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-indent-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf03c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facetime-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf03d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-picture {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf03e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pencil {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf040;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-map-marker {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf041;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-adjust {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf042;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tint {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf043;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf044;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf045;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf046;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-move {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf047;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-step-backward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf048;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fast-backward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf049;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-backward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf04a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf04b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pause {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf04c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf04d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-forward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf04e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fast-forward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf050;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-step-forward {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf051;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eject {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf052;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf053;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf054;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf055;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf056;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf057;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf058;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-question-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf059;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-info-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf05a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-screenshot {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf05b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf05c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf05d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ban-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf05e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf060;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf061;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf062;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf063;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf064;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-full {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf065;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-small {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf066;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf067;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf068;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-asterisk {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf069;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exclamation-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf06a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gift {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf06b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-leaf {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf06c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fire {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf06d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eye-open {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf06e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eye-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf070;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-warning-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf071;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plane {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf072;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-calendar {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf073;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-random {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf074;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comment {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf075;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-magnet {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf076;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf077;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf078;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-retweet {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf079;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-shopping-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf07a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf07b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-open {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf07c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-vertical {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf07d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-horizontal {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf07e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bar-chart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf080;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-twitter-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf081;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facebook-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf082;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-camera-retro {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf083;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-key {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf084;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cogs {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf085;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comments {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf086;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-up-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf087;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-down-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf088;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-half {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf089;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-heart-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf08a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signout {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf08b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linkedin-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf08c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pushpin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf08d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-external-link {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf08e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf090;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trophy {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf091;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf092;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-upload-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf093;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lemon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf094;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf095;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf096;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bookmark-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf097;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-phone-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf098;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf099;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf09a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf09b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf09c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-credit-card {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf09d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf09e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hdd {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bullhorn {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bell {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-certificate {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a3;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a4;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a5;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a6;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a7;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a8;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0a9;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0aa;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ab;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ac;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-wrench {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ad;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tasks {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ae;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-filter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0b0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-briefcase {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0b1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fullscreen {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0b2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-group {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-link {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-beaker {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c3;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cut {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c4;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-copy {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c5;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c6;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-save {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c7;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sign-blank {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c8;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reorder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0c9;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-ul {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ca;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-ol {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0cb;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-strikethrough {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0cc;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-underline {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0cd;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-table {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ce;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-magic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-truck {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pinterest-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d3;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-google-plus-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d4;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d5;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-money {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d6;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d7;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d8;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0d9;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0da;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-columns {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0db;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0dc;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0dd;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0de;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-envelope {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-undo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-legal {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e3;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dashboard {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e4;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comment-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e5;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comments-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e6;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bolt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e7;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sitemap {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e8;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-umbrella {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0e9;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-paste {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ea;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lightbulb {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0eb;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exchange {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ec;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ed;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0ee;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-user-md {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f0;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stethoscope {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f1;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-suitcase {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f2;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bell-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f3;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-coffee {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f4;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-food {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f5;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-text-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f6;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-building {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f7;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hospital {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f8;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ambulance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0f9;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-medkit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0fa;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fighter-jet {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0fb;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-beer {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0fc;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-h-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0fd;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus-sign-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf0fe;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf100;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf101;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf102;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf103;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf104;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf105;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf106;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf107;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-desktop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf108;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf109;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tablet {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf10a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-mobile-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf10b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-blank {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf10c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-quote-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf10d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-quote-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf10e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-spinner {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf110;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf111;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reply {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf112;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf113;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-close-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf114;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-open-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf115;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-expand-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf116;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf117;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-smile {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf118;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-frown {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf119;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-meh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf11a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gamepad {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf11b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-keyboard {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf11c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf11d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag-checkered {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf11e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-terminal {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf120;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-code {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf121;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reply-all {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf122;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-mail-reply-all {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf122;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-half-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf123;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-location-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf124;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-crop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf125;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-code-fork {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf126;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlink {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf127;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-question {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf128;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-info {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf129;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exclamation {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf12a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-superscript {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf12b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-subscript {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf12c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eraser {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf12d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-puzzle-piece {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf12e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-microphone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf130;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-microphone-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf131;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-shield {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf132;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-calendar-empty {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf133;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fire-extinguisher {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf134;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rocket {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf135;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-maxcdn {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf136;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf137;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf138;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf139;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf13a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-html5 {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf13b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-css3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf13c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-anchor {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf13d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlock-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf13e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bullseye {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf140;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ellipsis-horizontal {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf141;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ellipsis-vertical {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf142;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rss-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf143;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf144;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ticket {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf145;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus-sign-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf146;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf147;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-level-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf148;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-level-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf149;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf14a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-edit-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf14b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-external-link-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf14c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf14d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf14e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf150;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse-top {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf151;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-expand {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf152;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eur {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf153;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gbp {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf154;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-usd {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf155;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-inr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf156;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-jpy {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf157;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cny {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf158;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-krw {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf159;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-btc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf15a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf15b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-text {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf15c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-alphabet {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf15d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-alphabet-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf15e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-attributes {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf160;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-attributes-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf161;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-order {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf162;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-order-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf163;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf164;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf165;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf166;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf167;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-xing {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf168;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-xing-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf169;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube-play {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf16a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dropbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf16b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stackexchange {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf16c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf16d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf16e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-adn {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf170;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bitbucket {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf171;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bitbucket-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf172;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf173;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tumblr-sign {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf174;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf175;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf176;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf177;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf178;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-apple {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf179;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-windows {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf17a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-android {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf17b;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linux {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf17c;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf17d;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf17e;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf180;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trello {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf181;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-female {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf182;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-male {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf183;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gittip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf184;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sun {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf185;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-moon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf186;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-archive {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf187;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bug {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf188;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-vk {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf189;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-weibo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf18a;");
+}
+
+/* line 32, ../../sass/font/_font-awesome-settings.scss */
+.awesome-icon-renren {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf18b;");
+}

@@ -6661,46 +6661,1900 @@ a.th {
   max-width: 800px;
 }
 
-/* line 19, ../sass/app.scss */
+/*
+ *  Based on the Font Awesome package:
+ *
+ *  Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - SASS Files are based on the Font Awesome SASS files, which are licensed under
+ *    MIT License - http://opensource.org/licenses/mit-license.html
+ *
+ */
+/* font-face */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../font/fontawesome-webfont.eot?v=3.2.1");
+  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, ../sass/font/font-awesome.scss */
+[class*="awesome-icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, ../sass/font/font-awesome.scss */
+[class*="awesome-icon-"]:before {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-glass:before {
+  content: "\f000";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-music:before {
+  content: "\f001";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-search:before {
+  content: "\f002";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-envelope-alt:before {
+  content: "\f003";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-heart:before {
+  content: "\f004";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star:before {
+  content: "\f005";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-empty:before {
+  content: "\f006";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-user:before {
+  content: "\f007";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-film:before {
+  content: "\f008";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th-large:before {
+  content: "\f009";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th:before {
+  content: "\f00a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-th-list:before {
+  content: "\f00b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok:before {
+  content: "\f00c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove:before {
+  content: "\f00d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-zoom-in:before {
+  content: "\f00e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-zoom-out:before {
+  content: "\f010";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-off:before {
+  content: "\f011";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signal:before {
+  content: "\f012";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cog:before {
+  content: "\f013";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trash:before {
+  content: "\f014";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-home:before {
+  content: "\f015";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-alt:before {
+  content: "\f016";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-time:before {
+  content: "\f017";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-road:before {
+  content: "\f018";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-download-alt:before {
+  content: "\f019";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-download:before {
+  content: "\f01a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-upload:before {
+  content: "\f01b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-inbox:before {
+  content: "\f01c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play-circle:before {
+  content: "\f01d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-repeat:before {
+  content: "\f01e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-refresh:before {
+  content: "\f021";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-alt:before {
+  content: "\f022";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lock:before {
+  content: "\f023";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag:before {
+  content: "\f024";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-headphones:before {
+  content: "\f025";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-off:before {
+  content: "\f026";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-down:before {
+  content: "\f027";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-volume-up:before {
+  content: "\f028";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-qrcode:before {
+  content: "\f029";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-barcode:before {
+  content: "\f02a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tag:before {
+  content: "\f02b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tags:before {
+  content: "\f02c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-book:before {
+  content: "\f02d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-print:before {
+  content: "\f02f";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-camera:before {
+  content: "\f030";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-font:before {
+  content: "\f031";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bold:before {
+  content: "\f032";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-italic:before {
+  content: "\f033";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-text-height:before {
+  content: "\f034";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-text-width:before {
+  content: "\f035";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-left:before {
+  content: "\f036";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-center:before {
+  content: "\f037";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-right:before {
+  content: "\f038";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-align-justify:before {
+  content: "\f039";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list:before {
+  content: "\f03a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-indent-left:before {
+  content: "\f03b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-indent-right:before {
+  content: "\f03c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facetime-video:before {
+  content: "\f03d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-picture:before {
+  content: "\f03e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pencil:before {
+  content: "\f040";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-adjust:before {
+  content: "\f042";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tint:before {
+  content: "\f043";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-edit:before {
+  content: "\f044";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share:before {
+  content: "\f045";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check:before {
+  content: "\f046";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-move:before {
+  content: "\f047";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-step-backward:before {
+  content: "\f048";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-backward:before {
+  content: "\f04a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play:before {
+  content: "\f04b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pause:before {
+  content: "\f04c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stop:before {
+  content: "\f04d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-forward:before {
+  content: "\f04e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-step-forward:before {
+  content: "\f051";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eject:before {
+  content: "\f052";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus-sign:before {
+  content: "\f055";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus-sign:before {
+  content: "\f056";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove-sign:before {
+  content: "\f057";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok-sign:before {
+  content: "\f058";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-question-sign:before {
+  content: "\f059";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-info-sign:before {
+  content: "\f05a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-screenshot:before {
+  content: "\f05b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-remove-circle:before {
+  content: "\f05c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ok-circle:before {
+  content: "\f05d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ban-circle:before {
+  content: "\f05e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share-alt:before {
+  content: "\f064";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-full:before {
+  content: "\f065";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-small:before {
+  content: "\f066";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus:before {
+  content: "\f067";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus:before {
+  content: "\f068";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gift:before {
+  content: "\f06b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-leaf:before {
+  content: "\f06c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fire:before {
+  content: "\f06d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eye-open:before {
+  content: "\f06e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eye-close:before {
+  content: "\f070";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-warning-sign:before {
+  content: "\f071";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plane:before {
+  content: "\f072";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-calendar:before {
+  content: "\f073";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-random:before {
+  content: "\f074";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comment:before {
+  content: "\f075";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-magnet:before {
+  content: "\f076";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-retweet:before {
+  content: "\f079";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-close:before {
+  content: "\f07b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-twitter-sign:before {
+  content: "\f081";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facebook-sign:before {
+  content: "\f082";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-key:before {
+  content: "\f084";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cogs:before {
+  content: "\f085";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comments:before {
+  content: "\f086";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-up-alt:before {
+  content: "\f087";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-down-alt:before {
+  content: "\f088";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-half:before {
+  content: "\f089";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-heart-empty:before {
+  content: "\f08a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signout:before {
+  content: "\f08b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pushpin:before {
+  content: "\f08d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-external-link:before {
+  content: "\f08e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-signin:before {
+  content: "\f090";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trophy:before {
+  content: "\f091";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github-sign:before {
+  content: "\f092";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-upload-alt:before {
+  content: "\f093";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lemon:before {
+  content: "\f094";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-phone:before {
+  content: "\f095";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-empty:before {
+  content: "\f096";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-phone-sign:before {
+  content: "\f098";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github:before {
+  content: "\f09b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rss:before {
+  content: "\f09e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hdd:before {
+  content: "\f0a0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bell:before {
+  content: "\f0a2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-right:before {
+  content: "\f0a4";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-left:before {
+  content: "\f0a5";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-up:before {
+  content: "\f0a6";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hand-down:before {
+  content: "\f0a7";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-globe:before {
+  content: "\f0ac";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-filter:before {
+  content: "\f0b0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-group:before {
+  content: "\f0c0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-link:before {
+  content: "\f0c1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-beaker:before {
+  content: "\f0c3";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cut:before {
+  content: "\f0c4";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-copy:before {
+  content: "\f0c5";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-save:before {
+  content: "\f0c7";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reorder:before {
+  content: "\f0c9";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-underline:before {
+  content: "\f0cd";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-table:before {
+  content: "\f0ce";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-magic:before {
+  content: "\f0d0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-truck:before {
+  content: "\f0d1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-columns:before {
+  content: "\f0db";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort:before {
+  content: "\f0dc";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-down:before {
+  content: "\f0dd";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-up:before {
+  content: "\f0de";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-undo:before {
+  content: "\f0e2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-legal:before {
+  content: "\f0e3";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dashboard:before {
+  content: "\f0e4";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-paste:before {
+  content: "\f0ea";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-lightbulb:before {
+  content: "\f0eb";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bell-alt:before {
+  content: "\f0f3";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-food:before {
+  content: "\f0f5";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-text-alt:before {
+  content: "\f0f6";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-building:before {
+  content: "\f0f7";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-hospital:before {
+  content: "\f0f8";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-beer:before {
+  content: "\f0fc";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-h-sign:before {
+  content: "\f0fd";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-plus-sign-alt:before {
+  content: "\f0fe";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-left:before {
+  content: "\f100";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-right:before {
+  content: "\f101";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-up:before {
+  content: "\f102";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-double-angle-down:before {
+  content: "\f103";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-left:before {
+  content: "\f104";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-right:before {
+  content: "\f105";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-up:before {
+  content: "\f106";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-angle-down:before {
+  content: "\f107";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-desktop:before {
+  content: "\f108";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-laptop:before {
+  content: "\f109";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tablet:before {
+  content: "\f10a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle-blank:before {
+  content: "\f10c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-spinner:before {
+  content: "\f110";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-circle:before {
+  content: "\f111";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reply:before {
+  content: "\f112";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-github-alt:before {
+  content: "\f113";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-close-alt:before {
+  content: "\f114";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-folder-open-alt:before {
+  content: "\f115";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-expand-alt:before {
+  content: "\f116";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse-alt:before {
+  content: "\f117";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-smile:before {
+  content: "\f118";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-frown:before {
+  content: "\f119";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-meh:before {
+  content: "\f11a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-keyboard:before {
+  content: "\f11c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag-alt:before {
+  content: "\f11d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-terminal:before {
+  content: "\f120";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-code:before {
+  content: "\f121";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-reply-all:before {
+  content: "\f122";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-mail-reply-all:before {
+  content: "\f122";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-star-half-empty:before {
+  content: "\f123";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-crop:before {
+  content: "\f125";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-code-fork:before {
+  content: "\f126";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlink:before {
+  content: "\f127";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-question:before {
+  content: "\f128";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-info:before {
+  content: "\f129";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-superscript:before {
+  content: "\f12b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-subscript:before {
+  content: "\f12c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eraser:before {
+  content: "\f12d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-microphone:before {
+  content: "\f130";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-microphone-off:before {
+  content: "\f131";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-shield:before {
+  content: "\f132";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-calendar-empty:before {
+  content: "\f133";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rocket:before {
+  content: "\f135";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-left:before {
+  content: "\f137";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-right:before {
+  content: "\f138";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-up:before {
+  content: "\f139";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-chevron-sign-down:before {
+  content: "\f13a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-html5:before {
+  content: "\f13b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-css3:before {
+  content: "\f13c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-anchor:before {
+  content: "\f13d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bullseye:before {
+  content: "\f140";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ellipsis-horizontal:before {
+  content: "\f141";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ellipsis-vertical:before {
+  content: "\f142";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-rss-sign:before {
+  content: "\f143";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-play-sign:before {
+  content: "\f144";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-ticket:before {
+  content: "\f145";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-minus-sign-alt:before {
+  content: "\f146";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-minus:before {
+  content: "\f147";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-level-up:before {
+  content: "\f148";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-level-down:before {
+  content: "\f149";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-check-sign:before {
+  content: "\f14a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-edit-sign:before {
+  content: "\f14b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-external-link-sign:before {
+  content: "\f14c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-share-sign:before {
+  content: "\f14d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-compass:before {
+  content: "\f14e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse:before {
+  content: "\f150";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-collapse-top:before {
+  content: "\f151";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-expand:before {
+  content: "\f152";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-eur:before {
+  content: "\f153";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gbp:before {
+  content: "\f154";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-usd:before {
+  content: "\f155";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-inr:before {
+  content: "\f156";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-jpy:before {
+  content: "\f157";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-cny:before {
+  content: "\f158";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-krw:before {
+  content: "\f159";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-btc:before {
+  content: "\f15a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file:before {
+  content: "\f15b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-file-text:before {
+  content: "\f15c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-alphabet:before {
+  content: "\f15d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-alphabet-alt:before {
+  content: "\f15e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-attributes:before {
+  content: "\f160";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-attributes-alt:before {
+  content: "\f161";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-order:before {
+  content: "\f162";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sort-by-order-alt:before {
+  content: "\f163";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube-sign:before {
+  content: "\f166";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube:before {
+  content: "\f167";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-xing:before {
+  content: "\f168";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-xing-sign:before {
+  content: "\f169";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-stackexchange:before {
+  content: "\f16c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-instagram:before {
+  content: "\f16d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-flickr:before {
+  content: "\f16e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-adn:before {
+  content: "\f170";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bitbucket-sign:before {
+  content: "\f172";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tumblr:before {
+  content: "\f173";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-tumblr-sign:before {
+  content: "\f174";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-apple:before {
+  content: "\f179";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-windows:before {
+  content: "\f17a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-android:before {
+  content: "\f17b";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-linux:before {
+  content: "\f17c";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-skype:before {
+  content: "\f17e";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-foursquare:before {
+  content: "\f180";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-trello:before {
+  content: "\f181";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-female:before {
+  content: "\f182";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-male:before {
+  content: "\f183";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-gittip:before {
+  content: "\f184";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-sun:before {
+  content: "\f185";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-moon:before {
+  content: "\f186";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-archive:before {
+  content: "\f187";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-bug:before {
+  content: "\f188";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-vk:before {
+  content: "\f189";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-weibo:before {
+  content: "\f18a";
+}
+
+/* line 26, ../sass/font/_font-awesome-settings.scss */
+.awesome-icon-renren:before {
+  content: "\f18b";
+}
+
+/* line 22, ../sass/app.scss */
 img.orbit-image {
   /*border: 2px green solid;*/
   padding: 2px;
 }
 
-/* line 24, ../sass/app.scss */
+/* line 27, ../sass/app.scss */
 [data-orbit] {
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 27, ../sass/app.scss */
+/* line 30, ../sass/app.scss */
 [data-orbit] li {
   display: inline;
   list-style: none;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 36, ../sass/app.scss */
 body {
   padding: 0.625em;
 }
 
-/* line 36, ../sass/app.scss */
+/* line 39, ../sass/app.scss */
 div#banner {
   max-width: 72.91667em;
 }
 
-/* line 40, ../sass/app.scss */
+/* line 43, ../sass/app.scss */
 div#logo {
   margin-bottom: -61px;
 }
 
-/* line 44, ../sass/app.scss */
+/* line 47, ../sass/app.scss */
 #infobox {
   margin-bottom: 0.625em;
   text-align: right;
   width: 100%;
 }
 
-/* line 50, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 div#menu {
   background-color: #fff;
   margin-bottom: 0.625em;
@@ -6709,48 +8563,71 @@ div#menu {
   box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px 0px;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 66, ../sass/app.scss */
 ul.main-menu li {
   float: left;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  position: relavite;
+  position: relative;
 }
-/* line 69, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 ul.main-menu li a {
-  padding: 12px 15px;
-  line-height: 24px;
+  padding: 0.75em 0.9375em;
+  line-height: 1.5em;
   display: block;
+  -webkit-transition: color 0.1s linear, background-color 0.3s ease-out;
+  -moz-transition: color 0.1s linear, background-color 0.3s ease-out;
+  -o-transition: color 0.1s linear, background-color 0.3s ease-out;
+  transition: color 0.1s linear, background-color 0.3s ease-out;
 }
-/* line 74, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 ul.main-menu li ul {
   visibility: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   position: absolute;
   margin: 0;
   padding: 0;
   width: 200px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
-/* line 81, ../sass/app.scss */
+/* line 86, ../sass/app.scss */
 ul.main-menu li ul li {
   width: 100%;
 }
-/* line 87, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
+ul.main-menu li ul li a {
+  border-bottom: 1px solid #b1c335;
+}
+/* line 91, ../sass/app.scss */
+ul.main-menu li ul li ul {
+  margin-left: 200px;
+  top: 0;
+}
+/* line 95, ../sass/app.scss */
+ul.main-menu li ul li:hover > a {
+  background-color: #7b8725;
+}
+/* line 102, ../sass/app.scss */
 ul.main-menu li.active a {
   color: #fff;
   background-color: #9faf30;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 92, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 ul.main-menu li:hover a {
   color: #fff;
   background-color: #9faf30;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 95, ../sass/app.scss */
-ul.main-menu li:hover ul {
+/* line 110, ../sass/app.scss */
+ul.main-menu li:hover > ul {
   visibility: visible;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
   z-index: 999;
 }
