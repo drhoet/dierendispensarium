@@ -63,6 +63,7 @@ div#menu {
 }
 
 ul.main-menu {
+	display: table;
 	li {
 		float: left;
 		list-style-type: none;
