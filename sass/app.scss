@@ -18,13 +18,13 @@ $site-green-selected: darken($primary-color, $button-function-factor) !default;
 $divider: emCalc(10px) !default;
 
 $menu-item-width: 200px !default;
+$menu-small-max-width: 1000px;
 
 img.orbit-image {
-	/*border: 2px green solid;*/
 	padding: 2px;
 }
 
-[data-orbit] {
+[data-orbit-circular] {
 	white-space: nowrap;
 	overflow: hidden;
 	li {
@@ -42,6 +42,10 @@ div#banner {
 
 div#logo {
 	margin-bottom: -61px;
+	
+	@media only screen and (max-width:"#{$menu-small-max-width}") {
+		margin-bottom: -82px;
+	}
 }
 
 #infobox {
@@ -61,6 +65,15 @@ div#menu {
 	background-color: $primary-color;
 	@include text-shadow(0 1px 0 rgba(0,0,0,0.4));
 }
+@mixin main-menu-parent() {
+	@include main-menu-active;
+	content: "\f101";
+	float: right;
+	line-height: 1.5em;
+	padding: emCalc(12px) emCalc(5px);
+	background: none;
+	font-family: "FontAwesome";
+}
 
 ul.main-menu {
 	display: table;
@@ -75,6 +88,22 @@ ul.main-menu {
 			line-height: emCalc(24px);
 			display: block;
 			@include transition(color 0.1s linear, background-color 0.3s ease-out);
+			.icon {
+				margin-right: emCalc(5px);
+				font-size: 2em;
+				line-height: 0.5em;
+				vertical-align: middle;
+				@media only screen and (max-width:"#{$menu-small-max-width}") {
+					margin-right: 0;
+				}
+			}
+			.text {
+				line-height: 1em;
+				vertical-align: middle;
+				@media only screen and (max-width:"#{$menu-small-max-width}") {
+					display: none;
+				}
+			}
 		}
 		ul {
 			visibility: hidden;
@@ -95,6 +124,9 @@ ul.main-menu {
 				}
 				&:hover > a {
 					background-color: $site-green-selected;
+				}
+				&.parent:before {
+					@include main-menu-parent;
 				}
 			}
 		}

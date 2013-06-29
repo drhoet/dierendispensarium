@@ -8539,19 +8539,18 @@ a.th {
   content: "\f18b";
 }
 
-/* line 22, ../sass/app.scss */
+/* line 23, ../sass/app.scss */
 img.orbit-image {
-  /*border: 2px green solid;*/
   padding: 2px;
 }
 
 /* line 27, ../sass/app.scss */
-[data-orbit] {
+[data-orbit-circular] {
   white-space: nowrap;
   overflow: hidden;
 }
 /* line 30, ../sass/app.scss */
-[data-orbit] li {
+[data-orbit-circular] li {
   display: inline;
   list-style: none;
 }
@@ -8570,15 +8569,21 @@ div#banner {
 div#logo {
   margin-bottom: -61px;
 }
+@media only screen and (max-width: 1000px) {
+  /* line 43, ../sass/app.scss */
+  div#logo {
+    margin-bottom: -82px;
+  }
+}
 
-/* line 47, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 #infobox {
   margin-bottom: 0.625em;
   text-align: right;
   width: 100%;
 }
 
-/* line 53, ../sass/app.scss */
+/* line 57, ../sass/app.scss */
 div#menu {
   background-color: #fff;
   margin-bottom: 0.625em;
@@ -8587,11 +8592,11 @@ div#menu {
   box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px 0px;
 }
 
-/* line 65, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 ul.main-menu {
   display: table;
 }
-/* line 67, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 ul.main-menu li {
   float: left;
   list-style-type: none;
@@ -8599,7 +8604,7 @@ ul.main-menu li {
   margin: 0;
   position: relative;
 }
-/* line 73, ../sass/app.scss */
+/* line 86, ../sass/app.scss */
 ul.main-menu li a {
   padding: 0.75em 0.9375em;
   line-height: 1.5em;
@@ -8609,7 +8614,31 @@ ul.main-menu li a {
   -o-transition: color 0.1s linear, background-color 0.3s ease-out;
   transition: color 0.1s linear, background-color 0.3s ease-out;
 }
-/* line 79, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
+ul.main-menu li a .icon {
+  margin-right: 0.3125em;
+  font-size: 2em;
+  line-height: 0.5em;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1000px) {
+  /* line 91, ../sass/app.scss */
+  ul.main-menu li a .icon {
+    margin-right: 0;
+  }
+}
+/* line 100, ../sass/app.scss */
+ul.main-menu li a .text {
+  line-height: 1em;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1000px) {
+  /* line 100, ../sass/app.scss */
+  ul.main-menu li a .text {
+    display: none;
+  }
+}
+/* line 108, ../sass/app.scss */
 ul.main-menu li ul {
   visibility: hidden;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -8623,36 +8652,48 @@ ul.main-menu li ul {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 87, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 ul.main-menu li ul li {
   width: 100%;
 }
-/* line 89, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 ul.main-menu li ul li a {
   border-bottom: 1px solid #b1c335;
 }
-/* line 92, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 ul.main-menu li ul li ul {
   margin-left: 200px;
   top: 0;
 }
-/* line 96, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 ul.main-menu li ul li:hover > a {
   background-color: #7b8725;
 }
-/* line 103, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
+ul.main-menu li ul li.parent:before {
+  color: #fff;
+  background-color: #9faf30;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  content: "\f101";
+  float: right;
+  line-height: 1.5em;
+  padding: 0.75em 0.3125em;
+  background: none;
+  font-family: "FontAwesome";
+}
+/* line 135, ../sass/app.scss */
 ul.main-menu li.active a {
   color: #fff;
   background-color: #9faf30;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 108, ../sass/app.scss */
+/* line 140, ../sass/app.scss */
 ul.main-menu li:hover a {
   color: #fff;
   background-color: #9faf30;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 111, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 ul.main-menu li:hover > ul {
   visibility: visible;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
